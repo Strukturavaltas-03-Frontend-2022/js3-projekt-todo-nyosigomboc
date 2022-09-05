@@ -36,7 +36,9 @@ const getliHTML = (id, text, checked = false) => `
     <input type="checkbox" id="cb_${id}" name="cb_${id}" ><label for="cb_${id}" ${checked ? '"checked"' : ''}>${text}</label>
     <div class="del" ><img src="img/delete.png" alt="delete" class="delete" ><div>
   </li>`
-
+  // from here: https://www.flaticon.com/free-icon/delete_3395538
+  // FA is a lot bigger, no need to include that for one icon
+  
 const updatePending = () => {
   const html = getTodosIfCheckedIs(false)
     .map((todo) => getliHTML(todo.id, todo.text, false))
