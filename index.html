@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <div class="date"></div>
+    <div><input type="text" name="new_todo" placeholder="Take the garbage out"><button class="add_new_todo">+</button></div>
+    <div id="has_todo">
+      <div>You have <span id="pending_number">0</span> pending items.</div>
+      <ul class="pending_list">
+      </ul>
+      <div>Completed tasks: <span id="done_percentage">0</span>%</div>
+      <ul class="completed_list">
+      </ul>
+      <div><button id="butt_hide_complete">Hide complete</button><button id="butt_clear">Clear all</button></div>
+    </div>
+    <div id="empty"><div><img src="img/chill.jpg" alt="chill"></div><div>Time to chill! You have no todos.</div></div>
+  </main>
+  <script src="js/main.js" type="module"></script>
+</body>
+</html>

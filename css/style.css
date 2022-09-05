@@ -1,0 +1,94 @@
+* {
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(#f86457, #f25870);
+  min-height: 100vh;
+  justify-content: center;
+  justify-self: center;
+}
+
+main {
+  background-color: #f4f7fc;
+  border-radius: 10px;
+  padding: 5vh 5vw;
+  margin: 10px 15vw;
+}
+
+.date {
+  color: #f66060;
+  margin: 2vh 0;
+}
+
+input[name='new_todo'] {
+  width: 90%;
+  border-radius: 3px;
+}
+
+.add_new_todo {
+  width: 5%;
+}
+
+#butt_hide_complete {
+  width: 35%;
+  margin-left: 10%;
+}
+
+#butt_clear {
+  width: 35%;
+  margin-right: 10%;
+}
+
+#empty, #empty div {
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  text-align: center;
+  margin: 2vh 2vw;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.pending_list li, .completed_list li {
+  width: 100%;
+  padding: 2vh 2vw;
+  margin: 0.5vh 0.5vw;
+  margin-left: -4vw;
+  margin-right: 4vw;
+  opacity: 1;
+  transition: opacity 1s linear .5s;
+}
+
+.pending_list li {
+  background-color: #e0e8f5;
+}
+
+.completed_list li {
+  background-color: white;
+  text-decoration: line-through;
+}
+
+.del {
+  display: inline-block;
+  float: right;
+  padding: 1vh 1vw;
+  margin: 0;
+  color: black;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 1s linear .5s;
+}
+
+ul li:hover .del {
+  background-color: red;
+  opacity: 1;
+}
+
+.delete {
+  height: 2vh;
+}
