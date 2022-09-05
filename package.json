@@ -1,0 +1,25 @@
+{
+  "name": "js3-projekt-todo-nyosigomboc",
+  "version": "1.0.0",
+  "description": "Egy \"Teendőlista\" alkalmazást kell lefejlesztened.   \r Az alkalmazás dizájnját és működését az alábbi ábrák szemléltetik:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strukturavaltas-03-Frontend-2022/js3-projekt-todo-nyosigomboc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Strukturavaltas-03-Frontend-2022/js3-projekt-todo-nyosigomboc/issues"
+  },
+  "homepage": "https://github.com/Strukturavaltas-03-Frontend-2022/js3-projekt-todo-nyosigomboc#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
