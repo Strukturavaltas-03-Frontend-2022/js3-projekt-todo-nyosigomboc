@@ -3,12 +3,12 @@ let state = {
   todos: {
     1: {
       id: 1,
-      text: "Pick",
+      text: "Delete the default todos :)",
       checked: false,
     },
     2: {
       id: 2,
-      text: "Done",
+      text: "At least this has already been completed",
       checked: true,
     },
   },
